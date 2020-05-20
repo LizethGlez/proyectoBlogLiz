@@ -60,55 +60,91 @@
     <header>
       <h3>Videojuegos</h3>
     </header>
-    <img class="img-fluid" src="https://i1.wp.com/www.sopitas.com/wp-content/uploads/2017/08/control.jpg" alt="code" data-toggle="modal" data-target="#exampleModal">
+    <div class="container d-flex align-items-center flex-column">
+      <img class="masthead-avatar mb-5" src="https://i1.wp.com/www.sopitas.com/wp-content/uploads/2017/08/control.jpg" alt="code" data-toggle="modal" data-target="#exampleModal">
+    </div>
 
     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLabel">Incio de sesión</h5>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>
-                <form action="inicio.php" method="post">
-                  <div class="modal-body">
-                    Ingrese el numero de control <input type="text" name="numcontrol" size=15 placeholder="Numero de control">
-                    <br>
-                <br>
-                Ingrese contraseña <input type="password" name="password" size=30 placeholder="Constraseña"><br>
-                <br>
-                <input type="submit" name="sesion" value="Iniciar sesión">
-                  </div>
-                </form>
-                <form action="registro.html" method="post">
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-                    <button type="submit" class="btn btn-primary">Registrarse</button>
-                  </div>
-                </form>
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Juegos favoritos</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="container d-flex align-items-center flex-column">
+            <div class="modal-body">
+              <li>Doom</li>
+              <li>Silent hill</li>
+              <li>Tomb Rider</li>
+              <li>Mortal kombat</li>
+              <li>Call of duty</li>
+              <li>Red dead redeption</li>
+              <li>Dead space</li>
             </div>
           </div>
+          <form>
+            <div class="container d-flex align-items-center flex-column">
+              <div class="portfolio-item mx-auto">
+                <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"></div>
+              <img class="img-fluid" src="https://www.elheraldo.co/sites/default/files/styles/width_860/public/articulo/2016/03/08/10_mujeres_en_videojuegos_0.jpg?itok=UkidGL3W" alt="">
+              <br><br>
+              </div>
+            </div>
+          </form>
+        </div>
       </div>
+    </div>
   </section>
 
   <section class="box">
     <hr />
     <header>
-      <h3>Libros</h3>
-      <div class="col-md-6 col-lg-4">
-          <div class="portfolio-item mx-auto">
-            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-              <div class="portfolio-item-caption-content text-center text-white">
-                <a href="/coffee"><i class="fas fa-plus fa-3x"></i></a>
+      <div class="container d-flex align-items-center flex-column">
+        <h3>Libros</h3>
+        <div class="row">
+          <div class="col-md-6 col-lg-4">
+            <div class="portfolio-item mx-auto">
+              <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                <div class="portfolio-item-caption-content text-center text-white">
+                  <a href="/librosJ"><i class="fas fa-plus fa-3x"></i></a>
+                </div>
+              </div>
+              <img class="img-fluid" src="https://i.pinimg.com/736x/c5/8a/f0/c58af020c1d0895942643c3ee918cfdb.jpg" alt="">
+              <br><br><br>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="portfolio-item mx-auto">
+              <br><br>
+              <div class="alert alert-warning" role="alert">
+                <h4>.Amante de la lectura.</h4>
+                <p>En este apartado menciono mis lecturas favoritas de los siguientes autores: </p>
+                <br>
+                <div class="container d-flex align-items-center flex-column">
+                  <li>(<-)John Katzenbach</li>
+                  <li>Howard Phillips Lovecraft(->)</li>
+                </div>
               </div>
             </div>
-            <img class="img-fluid" src="https://storage.needpix.com/rsynced_images/low-poly-coffee-2460226_1280.png" alt="coffee">
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="portfolio-item mx-auto">
+              <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                <div class="portfolio-item-caption-content text-center text-white">
+                  <a href="/librosH"><i class="fas fa-plus fa-3x"></i></a>
+                </div>
+              </div>
+              <img class="img-fluid" src="https://i.pinimg.com/736x/c5/8a/f0/c58af020c1d0895942643c3ee918cfdb.jpg" alt="">
+              <br><br><br>
+            </div>
           </div>
         </div>
+      </div>
     </header>
-    <p>hola</p>
-    
   </section>
 </div>
 
