@@ -1,451 +1,54 @@
-<!DOCTYPE HTML>
-<!--
-  Alpha by HTML5 UP
-  html5up.net | @ajlkn
-  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-  <head>
-    <title>Proyectos académicos</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    <link rel="stylesheet" href="assets/css/main.css" />
-  </head>
-  <body class="is-preload">
-    <div id="page-wrapper">
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body id="fondo">
+	<div class="container-md">
+		<h1 class="alert alert-info" role="alert">Bienvenid@ al blog de {{ nombre }}</h1>
+	</div>
 
-      <!-- Header -->
-        <header id="header">
-          <h1><a href="index.html">Proyectos Académicos</a> Lizeth González</h1>
-          <nav id="nav">
-            <ul>
-              <li><a href="index.html">Inicio</a></li>
-              <li>
-                <a href="#" class="icon solid fa-angle-down">Layouts</a>
-                <ul>
-                  <li><a href="elements.html">Proyectos</a></li>
-                  <li>
-                    <a href="#">Submenu</a>
-                    <ul>
-                      <li><a href="#">Option One</a></li>
-                      <li><a href="#">Option Two</a></li>
-                      <li><a href="#">Option Three</a></li>
-                      <li><a href="#">Option Four</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-              <li><a href="#" class="button">Sign Up</a></li>
-            </ul>
-          </nav>
-        </header>
-
-      <!-- Main -->
-        <section id="main" class="container">
-          <header>
-            <h2>Proyectos Académicos</h2>
-            <p>Descripción general de los proyectos académicos realizados durante los semestres cursados.</p>
-          </header>
-          <div class="row">
-            <div class="col-12">
-
-              <!-- Text -->
-                <section class="box">
-                  <hr />
-
-                  <header>
-                    <h3>Sistema de monitoreo de Gases en túneles de Guanajuato</h3>
-                    <p>Supervisado por: Luis Armando García de la Rosa.</p>
-                  </header>
-                  <p>Proyecto realizado dentro de las instalaciones del intituto tecnológico superior de Guanajuato en el periodo del 05 de marzo del 2018 al 28 de agosto del 2019, a cargo del docente, el Doctor Luis Armando García de la Rosa. <br>
-                  El proyecto constaba de realizar pruebas de gases contaminantes, analizando dentro del software <i>Prosessing</i>, para medir los niveles de gases contaminantes y podernos reunir dentro un rango donde dichos gases ya resultaban peligrosos. <br>
-                  Toda la información recabada en el software fue puesta dentro de una placa Arduino UNO para poder, por medio de LEDs (Verde, amarillo y rojo) avisar cuando el gas al que es expuesto la placa es contaminante y su nivel de contaminación. También se desarrolló el diseño de un contenedor que pudiera proteger la placa Arduino UNO para poder realizar las pruebas de contaminantes directos de un tubo de escape de cualquier automóvil.</p>
-
-                  <div class="box alt">
-                    <div class="row gtr-50 gtr-uniform">
-                      <div class="col-4"><span class="image fit"><img src="images/arduino.jpg" alt="" /></span></div>
-                    </div>
-                  </div>
-
-                  <header>
-                    <h3>Hacking web y pentesting en un entorno controlado.</h3>
-                    <p>Supervisado por: Angélica González Páramo.</p>
-                  </header>
-                  <p>Proyecto realizado dentro de las instalaciones del intituto tecnológico superior de Guanajuato en el periodo del PONER FECHA PLIS, a cargo del docente, la Maestra Angélica González Páramo. <br>
-                  El proyecto constaba de</p>
-
-                  <div class="box alt">
-                    <div class="row gtr-50 gtr-uniform">
-                      <div class="col-4"><span class="image fit"><img src="images/seguridad.png" alt="" /></span></div>
-                    </div>
-                  </div>
-                </section>
-            </div>
-          </div>
-
-          <!-- <div class="row">
-            <div class="col-12">
-
-              <!-- Lists 
-                <section class="box">
-                  <h3>Lists</h3>
-                  <div class="row">
-                    <div class="col-6 col-12-mobilep">
-
-                      <h4>Unordered</h4>
-                      <ul>
-                        <li>Dolor pulvinar etiam magna etiam.</li>
-                        <li>Sagittis adipiscing lorem eleifend.</li>
-                        <li>Felis enim feugiat dolore viverra.</li>
-                      </ul>
-
-                      <h4>Alternate</h4>
-                      <ul class="alt">
-                        <li>Dolor pulvinar etiam magna etiam.</li>
-                        <li>Sagittis adipiscing lorem eleifend.</li>
-                        <li>Felis enim feugiat dolore viverra.</li>
-                      </ul>
-
-                    </div>
-                    <div class="col-6 col-12-mobilep">
-
-                      <h4>Ordered</h4>
-                      <ol>
-                        <li>Dolor pulvinar etiam magna etiam.</li>
-                        <li>Etiam vel felis at lorem sed viverra.</li>
-                        <li>Felis enim feugiat dolore viverra.</li>
-                        <li>Dolor pulvinar etiam magna etiam.</li>
-                        <li>Etiam vel felis at lorem sed viverra.</li>
-                        <li>Felis enim feugiat dolore viverra.</li>
-                      </ol>
-
-                      <h4>Icons</h4>
-                      <ul class="icons">
-                        <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-                        <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-                        <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-                        <li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-                        <li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-                        <li><a href="#" class="icon brands fa-tumblr"><span class="label">Tumblr</span></a></li>
-                      </ul>
-
-                    </div>
-                  </div>
-
-                  <h4>Actions</h4>
-                  <ul class="actions">
-                    <li><a href="#" class="button special">Default</a></li>
-                    <li><a href="#" class="button">Default</a></li>
-                    <li><a href="#" class="button alt">Default</a></li>
-                  </ul>
-                  <ul class="actions small">
-                    <li><a href="#" class="button special small">Small</a></li>
-                    <li><a href="#" class="button small">Small</a></li>
-                    <li><a href="#" class="button alt small">Small</a></li>
-                  </ul>
-                  <div class="row">
-                    <div class="col-3 col-6-narrower col-12-mobilep">
-                      <ul class="actions stacked">
-                        <li><a href="#" class="button special">Default</a></li>
-                        <li><a href="#" class="button">Default</a></li>
-                        <li><a href="#" class="button alt">Default</a></li>
-                      </ul>
-                    </div>
-                    <div class="col-3 col-6-narrower col-12-mobilep">
-                      <ul class="actions stacked">
-                        <li><a href="#" class="button special small">Small</a></li>
-                        <li><a href="#" class="button small">Small</a></li>
-                        <li><a href="#" class="button alt small">Small</a></li>
-                      </ul>
-                    </div>
-                    <div class="col-3 col-6-narrower col-12-mobilep">
-                      <ul class="actions stacked">
-                        <li><a href="#" class="button special fit">Default</a></li>
-                        <li><a href="#" class="button fit">Default</a></li>
-                        <li><a href="#" class="button alt fit">Default</a></li>
-                      </ul>
-                    </div>
-                    <div class="col-3 col-6-narrower col-12-mobilep">
-                      <ul class="actions stacked">
-                        <li><a href="#" class="button special small fit">Small</a></li>
-                        <li><a href="#" class="button small fit">Small</a></li>
-                        <li><a href="#" class="button alt small fit">Small</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </section>
-
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-12">
-
-              <!-- Table 
-                <section class="box">
-                  <h3>Table</h3>
-
-                  <h4>Default</h4>
-                  <div class="table-wrapper">
-                    <table>
-                      <thead>
-                        <tr>
-                          <th>Name</th>
-                          <th>Description</th>
-                          <th>Price</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>Something</td>
-                          <td>Ante turpis integer aliquet porttitor.</td>
-                          <td>29.99</td>
-                        </tr>
-                        <tr>
-                          <td>Nothing</td>
-                          <td>Vis ac commodo adipiscing arcu aliquet.</td>
-                          <td>19.99</td>
-                        </tr>
-                        <tr>
-                          <td>Something</td>
-                          <td> Morbi faucibus arcu accumsan lorem.</td>
-                          <td>29.99</td>
-                        </tr>
-                        <tr>
-                          <td>Nothing</td>
-                          <td>Vitae integer tempus condimentum.</td>
-                          <td>19.99</td>
-                        </tr>
-                        <tr>
-                          <td>Something</td>
-                          <td>Ante turpis integer aliquet porttitor.</td>
-                          <td>29.99</td>
-                        </tr>
-                      </tbody>
-                      <tfoot>
-                        <tr>
-                          <td colspan="2"></td>
-                          <td>100.00</td>
-                        </tr>
-                      </tfoot>
-                    </table>
-                  </div>
-
-                  <h4>Alternate</h4>
-                  <div class="table-wrapper">
-                    <table class="alt">
-                      <thead>
-                        <tr>
-                          <th>Name</th>
-                          <th>Description</th>
-                          <th>Price</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>Something</td>
-                          <td>Ante turpis integer aliquet porttitor.</td>
-                          <td>29.99</td>
-                        </tr>
-                        <tr>
-                          <td>Nothing</td>
-                          <td>Vis ac commodo adipiscing arcu aliquet.</td>
-                          <td>19.99</td>
-                        </tr>
-                        <tr>
-                          <td>Something</td>
-                          <td> Morbi faucibus arcu accumsan lorem.</td>
-                          <td>29.99</td>
-                        </tr>
-                        <tr>
-                          <td>Nothing</td>
-                          <td>Vitae integer tempus condimentum.</td>
-                          <td>19.99</td>
-                        </tr>
-                        <tr>
-                          <td>Something</td>
-                          <td>Ante turpis integer aliquet porttitor.</td>
-                          <td>29.99</td>
-                        </tr>
-                      </tbody>
-                      <tfoot>
-                        <tr>
-                          <td colspan="2"></td>
-                          <td>100.00</td>
-                        </tr>
-                      </tfoot>
-                    </table>
-                  </div>
-                </section>
-
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-12">
-
-              <!-- Buttons 
-                <section class="box">
-                  <h3>Buttons</h3>
-                  <ul class="actions">
-                    <li><a href="#" class="button special">Special</a></li>
-                    <li><a href="#" class="button">Default</a></li>
-                    <li><a href="#" class="button alt">Alternate</a></li>
-                  </ul>
-                  <ul class="actions">
-                    <li><a href="#" class="button special big">Big</a></li>
-                    <li><a href="#" class="button">Default</a></li>
-                    <li><a href="#" class="button alt small">Small</a></li>
-                  </ul>
-                  <ul class="actions fit">
-                    <li><a href="#" class="button special fit">Fit</a></li>
-                    <li><a href="#" class="button fit">Fit</a></li>
-                    <li><a href="#" class="button alt fit">Fit</a></li>
-                  </ul>
-                  <ul class="actions fit small">
-                    <li><a href="#" class="button special fit small">Fit + Small</a></li>
-                    <li><a href="#" class="button fit small">Fit + Small</a></li>
-                    <li><a href="#" class="button alt fit small">Fit + Small</a></li>
-                  </ul>
-                  <ul class="actions">
-                    <li><a href="#" class="button special icon solid fa-search">Icon</a></li>
-                    <li><a href="#" class="button icon solid fa-download">Icon</a></li>
-                    <li><a href="#" class="button alt icon solid fa-check">Icon</a></li>
-                  </ul>
-                  <ul class="actions">
-                    <li><span class="button special disabled">Special</span></li>
-                    <li><span class="button disabled">Default</span></li>
-                    <li><span class="button alt disabled">Alternate</span></li>
-                  </ul>
-                </section>
-
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-12">
-
-              <!-- Form 
-                <section class="box">
-                  <h3>Form</h3>
-                  <form method="post" action="#">
-                    <div class="row gtr-uniform gtr-50">
-                      <div class="col-6 col-12-mobilep">
-                        <input type="text" name="name" id="name" value="" placeholder="Name" />
-                      </div>
-                      <div class="col-6 col-12-mobilep">
-                        <input type="email" name="email" id="email" value="" placeholder="Email" />
-                      </div>
-                      <div class="col-12">
-                        <select name="category" id="category">
-                          <option value="">- Category -</option>
-                          <option value="1">Manufacturing</option>
-                          <option value="1">Shipping</option>
-                          <option value="1">Administration</option>
-                          <option value="1">Human Resources</option>
-                        </select>
-                      </div>
-                      <div class="col-4 col-12-narrower">
-                        <input type="radio" id="priority-low" name="priority" checked>
-                        <label for="priority-low">Low Priority</label>
-                      </div>
-                      <div class="col-4 col-12-narrower">
-                        <input type="radio" id="priority-normal" name="priority">
-                        <label for="priority-normal">Normal Priority</label>
-                      </div>
-                      <div class="col-4 col-12-narrower">
-                        <input type="radio" id="priority-high" name="priority">
-                        <label for="priority-high">High Priority</label>
-                      </div>
-                      <div class="col-6 col-12-narrower">
-                        <input type="checkbox" id="copy" name="copy">
-                        <label for="copy">Email me a copy of this message</label>
-                      </div>
-                      <div class="col-6 col-12-narrower">
-                        <input type="checkbox" id="human" name="human" checked>
-                        <label for="human">I am a human and not a robot</label>
-                      </div>
-                      <div class="col-12">
-                        <textarea name="message" id="message" placeholder="Enter your message" rows="6"></textarea>
-                      </div>
-                      <div class="col-12">
-                        <ul class="actions">
-                          <li><input type="submit" value="Send Message" /></li>
-                          <li><input type="reset" value="Reset" class="alt" /></li>
-                        </ul>
-                      </div>
-                    </div>
-                  </form>
-
-                  <hr />
-
-                  <form method="post" action="#">
-                    <div class="row gtr-uniform gtr-50">
-                      <div class="col-9 col-12-mobilep">
-                        <input type="text" name="query" id="query" value="" placeholder="Query" />
-                      </div>
-                      <div class="col-3 col-12-mobilep">
-                        <input type="submit" value="Search" class="fit" />
-                      </div>
-                    </div>
-                  </form>
-                </section>
-
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-12">
-
-              <!-- Image
-                <section class="box">
-                  <h3>Image</h3>
-                  <h4>Fit</h4>
-                  <span class="image fit"><img src="images/pic04.jpg" alt="" /></span>
-                  <div class="box alt">
-                    <div class="row gtr-50 gtr-uniform">
-                      <div class="col-4"><span class="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
-                      <div class="col-4"><span class="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
-                      <div class="col-4"><span class="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
-                      <div class="col-4"><span class="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
-                      <div class="col-4"><span class="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
-                      <div class="col-4"><span class="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
-                      <div class="col-4"><span class="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
-                      <div class="col-4"><span class="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
-                      <div class="col-4"><span class="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
-                    </div>
-                  </div>
-
-                  <h4>Left &amp; Right</h4>
-                  <p><span class="image left"><img src="images/pic05.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
-                  <p><span class="image right"><img src="images/pic05.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
-                </section>
-
-            </div>
-          </div>
-        </section> -->
-
-      <!-- Footer -->
-        <footer id="footer">
-          <ul class="icons">
-            <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-            <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-            <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-            <li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-            <li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-            <li><a href="#" class="icon brands fa-google-plus"><span class="label">Google+</span></a></li>
-          </ul>
-          <ul class="copyright">
-            <li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-          </ul>
-        </footer>
-
+	<div class="container-md" id="accordionExample">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h2 class="mb-0">
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          {{ bienvenida }}
+        </button>
+      </h2>
     </div>
 
-    <!-- Scripts -->
-      <script src="assets/js/jquery.min.js"></script>
-      <script src="assets/js/jquery.dropotron.min.js"></script>
-      <script src="assets/js/jquery.scrollex.min.js"></script>
-      <script src="assets/js/browser.min.js"></script>
-      <script src="assets/js/breakpoints.min.js"></script>
-      <script src="assets/js/util.js"></script>
-      <script src="assets/js/main.js"></script>
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div class="card-body">
+        Mi Nombre es Lizeth, soy estudiante de ingeniería en sistemas computacionales del 8vo semestre en el ITESG. 
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h2 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+           {{ about }}
+        </button>
+      </h2>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+      <div class="card-body">
+        Mis hobbies son: Jugar videojuego, principalmente de tipo hack and slash o de survival terror. También me gusta mucho leer novelas de misterio y suspenso, mi libro favorito se llama Rogue island. También me gusta escribir, tengo un blog de una novela que he estado escribiendo ya años atrás, pero está en remodelación (ahora que se un poco más sobre elaboración de páginas web), la novela aún está en la mitad del proceso. Me gustan los animales, pero me gustan más los pájaros (pero de lejitos, no en jaulas). 
+        <br><br>
+        Desde la secundaria he tomado cursos enfocados a la informática, actualmente soy técnico en ofimática, estudio la ingeniería en sistemas y me gustaría obtener una maestría, aunque aún no estoy decidida en que, pues hay varias áreas de mi carrera que me llaman la atención, y pues me gustaría continuar superándome. 
 
-  </body>
+      </div>
+    </div>
+  </div>
+</div>
+
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
 </html>
