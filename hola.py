@@ -10,8 +10,8 @@ def url_principal():
 @app.route("/librosJ")
 def url_librosJ():
  	tipos = [
- 		"El psicoanalísta",
- 		"Jaque al psicoanalísta",
+ 		"El psicoanalista",
+ 		"Jaque al psicoanalista",
  		"Un final perfecto",
  		"La historia del loco"
  	]
